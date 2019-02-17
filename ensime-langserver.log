@@ -1,0 +1,242 @@
+[2018-11-04 12:17:20,353] INFO org.github.dragos.vscode.Main$ - Starting server in /Users/ilyaonishenko/Projects/scala-sandbox
+[2018-11-04 12:17:20,353] INFO org.github.dragos.vscode.Main$ - Starting server in /Users/ilyaonishenko/Projects/scala-sandbox
+[2018-11-04 12:17:20,365] INFO org.github.dragos.vscode.Main$ - Classpath: /Users/ilyaonishenko/.vscode/extensions/dragos.scala-lsp-0.2.3/coursier
+[2018-11-04 12:17:20,365] INFO org.github.dragos.vscode.Main$ - Classpath: /Users/ilyaonishenko/.vscode/extensions/dragos.scala-lsp-0.2.3/coursier
+[2018-11-04 12:17:20,600] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 1214
+[2018-11-04 12:17:20,600] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 1214
+[2018-11-04 12:17:20,624] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":0,"method":"initialize","params":{"processId":1922,"rootPath":"/Users/ilyaonishenko/Projects/scala-sandbox","rootUri":"file:///Users/ilyaonishenko/Projects/scala-sandbox","capabilities":{"workspace":{"applyEdit":true,"didChangeConfiguration":{"dynamicRegistration":false},"didChangeWatchedFiles":{"dynamicRegistration":false},"symbol":{"dynamicRegistration":true},"executeCommand":{"dynamicRegistration":true}},"textDocument":{"synchronization":{"dynamicRegistration":true,"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"dynamicRegistration":true,"completionItem":{"snippetSupport":true}},"hover":{"dynamicRegistration":true},"signatureHelp":{"dynamicRegistration":true},"references":{"dynamicRegistration":true},"documentHighlight":{"dynamicRegistration":true},"documentSymbol":{"dynamicRegistration":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{"dynamicRegistration":true},"onTypeFormatting":{"dynamicRegistration":true},"definition":{"dynamicRegistration":true},"codeAction":{"dynamicRegistration":true},"codeLens":{"dynamicRegistration":true},"documentLink":{"dynamicRegistration":true},"rename":{"dynamicRegistration":true}}},"trace":"off"}}
+[2018-11-04 12:17:20,624] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":0,"method":"initialize","params":{"processId":1922,"rootPath":"/Users/ilyaonishenko/Projects/scala-sandbox","rootUri":"file:///Users/ilyaonishenko/Projects/scala-sandbox","capabilities":{"workspace":{"applyEdit":true,"didChangeConfiguration":{"dynamicRegistration":false},"didChangeWatchedFiles":{"dynamicRegistration":false},"symbol":{"dynamicRegistration":true},"executeCommand":{"dynamicRegistration":true}},"textDocument":{"synchronization":{"dynamicRegistration":true,"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"dynamicRegistration":true,"completionItem":{"snippetSupport":true}},"hover":{"dynamicRegistration":true},"signatureHelp":{"dynamicRegistration":true},"references":{"dynamicRegistration":true},"documentHighlight":{"dynamicRegistration":true},"documentSymbol":{"dynamicRegistration":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{"dynamicRegistration":true},"onTypeFormatting":{"dynamicRegistration":true},"definition":{"dynamicRegistration":true},"codeAction":{"dynamicRegistration":true},"codeLens":{"dynamicRegistration":true},"documentLink":{"dynamicRegistration":true},"rename":{"dynamicRegistration":true}}},"trace":"off"}}
+[2018-11-04 12:17:21,394] INFO org.github.dragos.vscode.EnsimeLanguageServer - Initialized with 1922, /Users/ilyaonishenko/Projects/scala-sandbox, ClientCapabilities()
+[2018-11-04 12:17:21,394] INFO org.github.dragos.vscode.EnsimeLanguageServer - Initialized with 1922, /Users/ilyaonishenko/Projects/scala-sandbox, ClientCapabilities()
+[2018-11-04 12:17:21,395] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - ensime.config = "/Users/ilyaonishenko/Projects/scala-sandbox/.ensime" 
+[2018-11-04 12:17:21,395] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - ensime.config = "/Users/ilyaonishenko/Projects/scala-sandbox/.ensime" 
+[2018-11-04 12:17:22,166] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+[2018-11-04 12:17:23,290] INFO org.github.dragos.vscode.EnsimeLanguageServer - Using configuration: EnsimeConfig(RawFile(/Users/ilyaonishenko/Projects/scala-sandbox),RawFile(/Users/ilyaonishenko/Projects/scala-sandbox/.ensime_cache),RawFile(/Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home),scala-sandbox,2.12.4,List(-Ymacro-expand:discard),List(),List(EnsimeProject(EnsimeProjectId(scala-sandbox,compile),List(),Set(RawFile(/Users/ilyaonishenko/Projects/scala-sandbox/src/main/java), RawFile(/Users/ilyaonishenko/Projects/scala-sandbox/target/scala-2.12/src_managed/main), RawFile(/Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala-2.12), RawFile(/Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala)),Set(RawFile(/Users/ilyaonishenko/Projects/scala-sandbox/target/scala-2.12/classes)),List(-Ymacro-expand:discard),List(),List(RawFile(/Users/ilyaonishenko/.ivy2/cache/scala_2.12/sbt_1.0/com.dwijnand/sbt-compat/jars/sbt-compat-1.0.0.jar), RawFile(/Users/ilyaonishenko/.ivy2/cache/scala_2.12/sbt_1.0/org.ensime/sbt-ensime/jars/sbt-ensime-2.5.1.jar), RawFile(/Users/ilyaonishenko/.sbt/boot/scala-2.12.4/lib/scala-library.jar), RawFile(/Users/ilyaonishenko/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.6.jar)),List(RawFile(/Users/ilyaonishenko/.ivy2/cache/scala_2.12/sbt_1.0/org.ensime/sbt-ensime/srcs/sbt-ensime-2.5.1-sources.jar), RawFile(/Users/ilyaonishenko/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.4-sources.jar), RawFile(/Users/ilyaonishenko/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/srcs/scala-xml_2.12-1.0.6-sources.jar)),List(RawFile(/Users/ilyaonishenko/.ivy2/cache/scala_2.12/sbt_1.0/org.ensime/sbt-ensime/docs/sbt-ensime-2.5.1-javadoc.jar), RawFile(/Users/ilyaonishenko/.ivy2/cache/org.scala-lang/scala-library/docs/scala-library-2.12.4-javadoc.jar), RawFile(/Users/ilyaonishenko/Projects/scala-sandbox/target/scala-2.12/scala-sandbox_2.12-0.1.0-SNAPSHOT-javadoc.jar), RawFile(/Users/ilyaonishenko/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/docs/scala-xml_2.12-1.0.6-javadoc.jar))), EnsimeProject(EnsimeProjectId(scala-sandbox,test),List(EnsimeProjectId(scala-sandbox,compile)),Set(RawFile(/Users/ilyaonishenko/Projects/scala-sandbox/src/test/java), RawFile(/Users/ilyaonishenko/Projects/scala-sandbox/src/test/scala-2.12), RawFile(/Users/ilyaonishenko/Projects/scala-sandbox/src/test/scala), RawFile(/Users/ilyaonishenko/Projects/scala-sandbox/target/scala-2.12/src_managed/test)),Set(RawFile(/Users/ilyaonishenko/Projects/scala-sandbox/target/scala-2.12/test-classes)),List(-Ymacro-expand:discard),List(),List(),List(),List())))
+[2018-11-04 12:17:23,290] INFO org.github.dragos.vscode.EnsimeLanguageServer - Using configuration: EnsimeConfig(RawFile(/Users/ilyaonishenko/Projects/scala-sandbox),RawFile(/Users/ilyaonishenko/Projects/scala-sandbox/.ensime_cache),RawFile(/Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home),scala-sandbox,2.12.4,List(-Ymacro-expand:discard),List(),List(EnsimeProject(EnsimeProjectId(scala-sandbox,compile),List(),Set(RawFile(/Users/ilyaonishenko/Projects/scala-sandbox/src/main/java), RawFile(/Users/ilyaonishenko/Projects/scala-sandbox/target/scala-2.12/src_managed/main), RawFile(/Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala-2.12), RawFile(/Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala)),Set(RawFile(/Users/ilyaonishenko/Projects/scala-sandbox/target/scala-2.12/classes)),List(-Ymacro-expand:discard),List(),List(RawFile(/Users/ilyaonishenko/.ivy2/cache/scala_2.12/sbt_1.0/com.dwijnand/sbt-compat/jars/sbt-compat-1.0.0.jar), RawFile(/Users/ilyaonishenko/.ivy2/cache/scala_2.12/sbt_1.0/org.ensime/sbt-ensime/jars/sbt-ensime-2.5.1.jar), RawFile(/Users/ilyaonishenko/.sbt/boot/scala-2.12.4/lib/scala-library.jar), RawFile(/Users/ilyaonishenko/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.6.jar)),List(RawFile(/Users/ilyaonishenko/.ivy2/cache/scala_2.12/sbt_1.0/org.ensime/sbt-ensime/srcs/sbt-ensime-2.5.1-sources.jar), RawFile(/Users/ilyaonishenko/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.4-sources.jar), RawFile(/Users/ilyaonishenko/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/srcs/scala-xml_2.12-1.0.6-sources.jar)),List(RawFile(/Users/ilyaonishenko/.ivy2/cache/scala_2.12/sbt_1.0/org.ensime/sbt-ensime/docs/sbt-ensime-2.5.1-javadoc.jar), RawFile(/Users/ilyaonishenko/.ivy2/cache/org.scala-lang/scala-library/docs/scala-library-2.12.4-javadoc.jar), RawFile(/Users/ilyaonishenko/Projects/scala-sandbox/target/scala-2.12/scala-sandbox_2.12-0.1.0-SNAPSHOT-javadoc.jar), RawFile(/Users/ilyaonishenko/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/docs/scala-xml_2.12-1.0.6-javadoc.jar))), EnsimeProject(EnsimeProjectId(scala-sandbox,test),List(EnsimeProjectId(scala-sandbox,compile)),Set(RawFile(/Users/ilyaonishenko/Projects/scala-sandbox/src/test/java), RawFile(/Users/ilyaonishenko/Projects/scala-sandbox/src/test/scala-2.12), RawFile(/Users/ilyaonishenko/Projects/scala-sandbox/src/test/scala), RawFile(/Users/ilyaonishenko/Projects/scala-sandbox/target/scala-2.12/src_managed/test)),Set(RawFile(/Users/ilyaonishenko/Projects/scala-sandbox/target/scala-2.12/test-classes)),List(-Ymacro-expand:discard),List(),List(),List(),List())))
+[2018-11-04 12:17:23,302] INFO org.github.dragos.vscode.ensime.EnsimeActor - Starting problematic actor now
+[2018-11-04 12:17:23,302] INFO org.github.dragos.vscode.ensime.EnsimeActor - Starting problematic actor now
+[2018-11-04 12:17:23,304] INFO org.github.dragos.vscode.ensime.EnsimeActor - Created: Actor[akka://ENSIME/user/server/ensimeProject#-1842071127]
+[2018-11-04 12:17:23,304] INFO org.github.dragos.vscode.ensime.EnsimeActor - Created: Actor[akka://ENSIME/user/server/ensimeProject#-1842071127]
+[2018-11-04 12:17:23,333] DEBUG org.github.dragos.vscode.ensime.EnsimeProjectServer - Forwarding ConnectionInfoReq
+[2018-11-04 12:17:23,333] DEBUG org.github.dragos.vscode.ensime.EnsimeProjectServer - Forwarding ConnectionInfoReq
+[2018-11-04 12:17:23,348] INFO org.apache.commons.vfs2.impl.StandardFileSystemManager - Using "/var/folders/rx/7nrrr9k510349c6v38vz330h0000gn/T/vfs_cache" as temporary files store.
+[2018-11-04 12:17:23,442] DEBUG langserver.core.MessageWriter - Content-Length: 441
+
+
+
+{"jsonrpc":"2.0","result":{"capabilities":{"textDocumentSync":1,"hoverProvider":true,"completionProvider":{"resolveProvider":false,"triggerCharacters":["."]},"definitionProvider":true,"referencesProvider":false,"documentHighlightProvider":false,"documentSymbolProvider":true,"workspaceSymbolProvider":false,"codeActionProvider":false,"documentFormattingProvider":false,"documentRangeFormattingProvider":false,"renameProvider":false}},"id":0}
+[2018-11-04 12:17:23,442] DEBUG langserver.core.MessageWriter - Content-Length: 441
+
+
+
+{"jsonrpc":"2.0","result":{"capabilities":{"textDocumentSync":1,"hoverProvider":true,"completionProvider":{"resolveProvider":false,"triggerCharacters":["."]},"definitionProvider":true,"referencesProvider":false,"documentHighlightProvider":false,"documentSymbolProvider":true,"workspaceSymbolProvider":false,"codeActionProvider":false,"documentFormattingProvider":false,"documentRangeFormattingProvider":false,"renameProvider":false}},"id":0}
+[2018-11-04 12:17:23,442] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","result":{"capabilities":{"textDocumentSync":1,"hoverProvider":true,"completionProvider":{"resolveProvider":false,"triggerCharacters":["."]},"definitionProvider":true,"referencesProvider":false,"documentHighlightProvider":false,"documentSymbolProvider":true,"workspaceSymbolProvider":false,"codeActionProvider":false,"documentFormattingProvider":false,"documentRangeFormattingProvider":false,"renameProvider":false}},"id":0}
+[2018-11-04 12:17:23,442] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","result":{"capabilities":{"textDocumentSync":1,"hoverProvider":true,"completionProvider":{"resolveProvider":false,"triggerCharacters":["."]},"definitionProvider":true,"referencesProvider":false,"documentHighlightProvider":false,"documentSymbolProvider":true,"workspaceSymbolProvider":false,"codeActionProvider":false,"documentFormattingProvider":false,"documentRangeFormattingProvider":false,"renameProvider":false}},"id":0}
+[2018-11-04 12:17:23,446] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 52
+[2018-11-04 12:17:23,446] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 52
+[2018-11-04 12:17:23,446] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"initialized","params":{}}
+[2018-11-04 12:17:23,446] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"initialized","params":{}}
+[2018-11-04 12:17:23,503] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification Initialized()
+[2018-11-04 12:17:23,503] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification Initialized()
+[2018-11-04 12:17:23,503] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 533
+[2018-11-04 12:17:23,503] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 533
+[2018-11-04 12:17:23,504] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didOpen","params":{"textDocument":{"uri":"file:///Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala","languageId":"scala","version":1,"text":"package com.example.example\n\nobject DriverApp extends App {\n  println(\"Hello world\")\n}\n\nobject MergeSort {\n  def mergeSort(list: List[Int]): List[Int] = {\n    if (list.length == 1) list\n    else {\n      val n = list.length / 2\n      val (head, tail) = list.splitAt(n)\n      \n    }\n  }\n}"}}}
+[2018-11-04 12:17:23,504] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didOpen","params":{"textDocument":{"uri":"file:///Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala","languageId":"scala","version":1,"text":"package com.example.example\n\nobject DriverApp extends App {\n  println(\"Hello world\")\n}\n\nobject MergeSort {\n  def mergeSort(list: List[Int]): List[Int] = {\n    if (list.length == 1) list\n    else {\n      val n = list.length / 2\n      val (head, tail) = list.splitAt(n)\n      \n    }\n  }\n}"}}}
+[2018-11-04 12:17:23,511] DEBUG org.github.dragos.vscode.ensime.EnsimeProjectServer - Forwarding TypecheckFileReq(SourceFileInfo(RawFile(/Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala),Some(...),None))
+[2018-11-04 12:17:23,511] DEBUG org.github.dragos.vscode.ensime.EnsimeProjectServer - Forwarding TypecheckFileReq(SourceFileInfo(RawFile(/Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala),Some(...),None))
+[2018-11-04 12:17:25,368] INFO akka.actor.DeadLetterActorRef - Message [org.ensime.api.ConnectionInfo] from Actor[akka://ENSIME/user/server/ensimeProject/project#32143810] to Actor[akka://ENSIME/deadLetters] was not delivered. [1] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+[2018-11-04 12:17:25,391] INFO org.github.dragos.vscode.ensime.EnsimeProjectServer - Full typecheck complete event
+[2018-11-04 12:17:25,391] INFO org.github.dragos.vscode.ensime.EnsimeProjectServer - Full typecheck complete event
+[2018-11-04 12:17:25,392] INFO org.github.dragos.vscode.EnsimeLanguageServer - Received 0 notes.
+[2018-11-04 12:17:25,392] INFO org.github.dragos.vscode.EnsimeLanguageServer - Received 0 notes.
+[2018-11-04 12:17:25,403] DEBUG langserver.core.MessageWriter - Content-Length: 198
+
+
+
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala","diagnostics":[]}}
+[2018-11-04 12:17:25,403] DEBUG langserver.core.MessageWriter - Content-Length: 198
+
+
+
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala","diagnostics":[]}}
+[2018-11-04 12:17:25,403] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala","diagnostics":[]}}
+[2018-11-04 12:17:25,403] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala","diagnostics":[]}}
+[2018-11-04 12:17:25,403] INFO org.github.dragos.vscode.ensime.EnsimeProjectServer - Analyzer is ready!
+[2018-11-04 12:17:25,403] INFO org.github.dragos.vscode.ensime.EnsimeProjectServer - Analyzer is ready!
+[2018-11-04 12:17:27,924] DEBUG org.github.dragos.vscode.ensime.EnsimeProjectServer - Forwarding SendBackgroundMessageEvent(Initializing Analyzer. Please wait...,105)
+[2018-11-04 12:17:27,924] DEBUG org.github.dragos.vscode.ensime.EnsimeProjectServer - Forwarding SendBackgroundMessageEvent(Initializing Analyzer. Please wait...,105)
+[2018-11-04 12:17:27,927] DEBUG org.github.dragos.vscode.ensime.EnsimeProjectServer - Forwarding SendBackgroundMessageEvent(Initializing Analyzer. Please wait...,105)
+[2018-11-04 12:17:27,927] DEBUG org.github.dragos.vscode.ensime.EnsimeProjectServer - Forwarding SendBackgroundMessageEvent(Initializing Analyzer. Please wait...,105)
+[2018-11-04 12:17:28,085] INFO akka.actor.DeadLetterActorRef - Message [org.ensime.api.VoidResponse$] from Actor[akka://ENSIME/user/server/ensimeProject/project/scalac/scala-sandbox_compile#-307462113] to Actor[akka://ENSIME/deadLetters] was not delivered. [2] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+[2018-11-04 12:17:28,233] DEBUG org.github.dragos.vscode.ensime.EnsimeProjectServer - Forwarding IndexerReadyEvent
+[2018-11-04 12:17:28,233] DEBUG org.github.dragos.vscode.ensime.EnsimeProjectServer - Forwarding IndexerReadyEvent
+[2018-11-04 12:17:29,359] DEBUG org.github.dragos.vscode.ensime.EnsimeProjectServer - Scala notes: Note(/Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala,type mismatch;
+ found   : Unit
+ required: List[Int],NoteError,279,279,14,5)
+[2018-11-04 12:17:29,359] DEBUG org.github.dragos.vscode.ensime.EnsimeProjectServer - Scala notes: Note(/Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala,type mismatch;
+ found   : Unit
+ required: List[Int],NoteError,279,279,14,5)
+[2018-11-04 12:17:29,360] INFO org.github.dragos.vscode.EnsimeLanguageServer - Received 1 notes.
+[2018-11-04 12:17:29,360] INFO org.github.dragos.vscode.EnsimeLanguageServer - Received 1 notes.
+[2018-11-04 12:17:29,362] DEBUG langserver.core.MessageWriter - Content-Length: 371
+
+
+
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala","diagnostics":[{"range":{"start":{"line":13,"character":4},"end":{"line":13,"character":4}},"severity":1,"source":"Scala","message":"type mismatch;\n found   : Unit\n required: List[Int]"}]}}
+[2018-11-04 12:17:29,362] DEBUG langserver.core.MessageWriter - Content-Length: 371
+
+
+
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala","diagnostics":[{"range":{"start":{"line":13,"character":4},"end":{"line":13,"character":4}},"severity":1,"source":"Scala","message":"type mismatch;\n found   : Unit\n required: List[Int]"}]}}
+[2018-11-04 12:17:29,362] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala","diagnostics":[{"range":{"start":{"line":13,"character":4},"end":{"line":13,"character":4}},"severity":1,"source":"Scala","message":"type mismatch;\n found   : Unit\n required: List[Int]"}]}}
+[2018-11-04 12:17:29,362] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala","diagnostics":[{"range":{"start":{"line":13,"character":4},"end":{"line":13,"character":4}},"severity":1,"source":"Scala","message":"type mismatch;\n found   : Unit\n required: List[Int]"}]}}
+[2018-11-04 12:17:29,374] INFO org.github.dragos.vscode.ensime.EnsimeProjectServer - Full typecheck complete event
+[2018-11-04 12:17:29,374] INFO org.github.dragos.vscode.ensime.EnsimeProjectServer - Full typecheck complete event
+[2018-11-04 12:17:29,374] INFO org.github.dragos.vscode.EnsimeLanguageServer - Received 1 notes.
+[2018-11-04 12:17:29,374] INFO org.github.dragos.vscode.EnsimeLanguageServer - Received 1 notes.
+[2018-11-04 12:17:29,375] DEBUG langserver.core.MessageWriter - Content-Length: 371
+
+
+
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala","diagnostics":[{"range":{"start":{"line":13,"character":4},"end":{"line":13,"character":4}},"severity":1,"source":"Scala","message":"type mismatch;\n found   : Unit\n required: List[Int]"}]}}
+[2018-11-04 12:17:29,375] DEBUG langserver.core.MessageWriter - Content-Length: 371
+
+
+
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala","diagnostics":[{"range":{"start":{"line":13,"character":4},"end":{"line":13,"character":4}},"severity":1,"source":"Scala","message":"type mismatch;\n found   : Unit\n required: List[Int]"}]}}
+[2018-11-04 12:17:29,376] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala","diagnostics":[{"range":{"start":{"line":13,"character":4},"end":{"line":13,"character":4}},"severity":1,"source":"Scala","message":"type mismatch;\n found   : Unit\n required: List[Int]"}]}}
+[2018-11-04 12:17:29,376] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala","diagnostics":[{"range":{"start":{"line":13,"character":4},"end":{"line":13,"character":4}},"severity":1,"source":"Scala","message":"type mismatch;\n found   : Unit\n required: List[Int]"}]}}
+[2018-11-04 12:17:54,338] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 535
+[2018-11-04 12:17:54,338] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 535
+[2018-11-04 12:17:54,344] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"uri":"file:///Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala","version":1},"contentChanges":[{"text":"package com.example.example\n\nobject DriverApp extends App {\n  println(\"Hello world\")\n}\n\nobject MergeSort {\n  def mergeSort(list: List[Int]): List[Int] = {\n    if (list.length == 1) list\n    else {\n      val n = list.length / 2\n      val (head, tail) = list.splitAt(n)\n      \n    }\n  }\n}"}]}}
+[2018-11-04 12:17:54,344] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"uri":"file:///Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala","version":1},"contentChanges":[{"text":"package com.example.example\n\nobject DriverApp extends App {\n  println(\"Hello world\")\n}\n\nobject MergeSort {\n  def mergeSort(list: List[Int]): List[Int] = {\n    if (list.length == 1) list\n    else {\n      val n = list.length / 2\n      val (head, tail) = list.splitAt(n)\n      \n    }\n  }\n}"}]}}
+[2018-11-04 12:17:54,349] DEBUG org.github.dragos.vscode.ensime.EnsimeProjectServer - Forwarding TypecheckFileReq(SourceFileInfo(RawFile(/Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala),Some(...),None))
+[2018-11-04 12:17:54,349] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 201
+[2018-11-04 12:17:54,349] DEBUG org.github.dragos.vscode.ensime.EnsimeProjectServer - Forwarding TypecheckFileReq(SourceFileInfo(RawFile(/Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala),Some(...),None))
+[2018-11-04 12:17:54,349] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 201
+[2018-11-04 12:17:54,350] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":1,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala"}}}
+[2018-11-04 12:17:54,350] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":1,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala"}}}
+[2018-11-04 12:17:54,354] INFO org.github.dragos.vscode.EnsimeLanguageServer - Document Symbols request for file:///Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala
+[2018-11-04 12:17:54,354] INFO org.github.dragos.vscode.EnsimeLanguageServer - Document Symbols request for file:///Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala
+[2018-11-04 12:17:54,361] DEBUG org.github.dragos.vscode.ensime.EnsimeProjectServer - Forwarding StructureViewReq(SourceFileInfo(RawFile(/Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala),Some(...),None))
+[2018-11-04 12:17:54,361] DEBUG org.github.dragos.vscode.ensime.EnsimeProjectServer - Forwarding StructureViewReq(SourceFileInfo(RawFile(/Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala),Some(...),None))
+[2018-11-04 12:17:54,367] INFO akka.actor.DeadLetterActorRef - Message [org.ensime.api.VoidResponse$] from Actor[akka://ENSIME/user/server/ensimeProject/project/scalac/scala-sandbox_compile#-307462113] to Actor[akka://ENSIME/deadLetters] was not delivered. [3] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+[2018-11-04 12:17:54,558] DEBUG org.github.dragos.vscode.ensime.EnsimeProjectServer - Scala notes: Note(/Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala,type mismatch;
+ found   : Unit
+ required: List[Int],NoteError,279,279,14,5)
+[2018-11-04 12:17:54,558] DEBUG org.github.dragos.vscode.ensime.EnsimeProjectServer - Scala notes: Note(/Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala,type mismatch;
+ found   : Unit
+ required: List[Int],NoteError,279,279,14,5)
+[2018-11-04 12:17:54,558] INFO org.github.dragos.vscode.EnsimeLanguageServer - Received 1 notes.
+[2018-11-04 12:17:54,558] INFO org.github.dragos.vscode.EnsimeLanguageServer - Received 1 notes.
+[2018-11-04 12:17:54,559] DEBUG langserver.core.MessageWriter - Content-Length: 371
+
+
+
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala","diagnostics":[{"range":{"start":{"line":13,"character":4},"end":{"line":13,"character":4}},"severity":1,"source":"Scala","message":"type mismatch;\n found   : Unit\n required: List[Int]"}]}}
+[2018-11-04 12:17:54,559] DEBUG langserver.core.MessageWriter - Content-Length: 371
+
+
+
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala","diagnostics":[{"range":{"start":{"line":13,"character":4},"end":{"line":13,"character":4}},"severity":1,"source":"Scala","message":"type mismatch;\n found   : Unit\n required: List[Int]"}]}}
+[2018-11-04 12:17:54,559] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala","diagnostics":[{"range":{"start":{"line":13,"character":4},"end":{"line":13,"character":4}},"severity":1,"source":"Scala","message":"type mismatch;\n found   : Unit\n required: List[Int]"}]}}
+[2018-11-04 12:17:54,559] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala","diagnostics":[{"range":{"start":{"line":13,"character":4},"end":{"line":13,"character":4}},"severity":1,"source":"Scala","message":"type mismatch;\n found   : Unit\n required: List[Int]"}]}}
+[2018-11-04 12:17:54,573] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - StructureView future completed: succes? true
+[2018-11-04 12:17:54,573] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - got back: List(StructureViewMember(object,DriverApp,OffsetSourcePosition(RawFile(/Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala),36),List()), StructureViewMember(object,MergeSort,OffsetSourcePosition(RawFile(/Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala),95),List(StructureViewMember(def,mergeSort,OffsetSourcePosition(RawFile(/Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala),113),List()))))
+[2018-11-04 12:17:54,573] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - StructureView future completed: succes? true
+[2018-11-04 12:17:54,573] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - got back: List(StructureViewMember(object,DriverApp,OffsetSourcePosition(RawFile(/Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala),36),List()), StructureViewMember(object,MergeSort,OffsetSourcePosition(RawFile(/Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala),95),List(StructureViewMember(def,mergeSort,OffsetSourcePosition(RawFile(/Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala),113),List()))))
+[2018-11-04 12:17:54,577] DEBUG langserver.core.MessageWriter - Content-Length: 747
+
+
+
+{"jsonrpc":"2.0","result":[{"name":"DriverApp","kind":8,"location":{"uri":"file:///Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala","range":{"start":{"line":2,"character":7},"end":{"line":2,"character":16}}}},{"name":"MergeSort","kind":8,"location":{"uri":"file:///Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala","range":{"start":{"line":6,"character":7},"end":{"line":6,"character":16}}}},{"name":"mergeSort","kind":6,"location":{"uri":"file:///Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala","range":{"start":{"line":7,"character":6},"end":{"line":7,"character":15}}},"containerName":"MergeSort"}],"id":1}
+[2018-11-04 12:17:54,577] DEBUG langserver.core.MessageWriter - Content-Length: 747
+
+
+
+{"jsonrpc":"2.0","result":[{"name":"DriverApp","kind":8,"location":{"uri":"file:///Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala","range":{"start":{"line":2,"character":7},"end":{"line":2,"character":16}}}},{"name":"MergeSort","kind":8,"location":{"uri":"file:///Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala","range":{"start":{"line":6,"character":7},"end":{"line":6,"character":16}}}},{"name":"mergeSort","kind":6,"location":{"uri":"file:///Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala","range":{"start":{"line":7,"character":6},"end":{"line":7,"character":15}}},"containerName":"MergeSort"}],"id":1}
+[2018-11-04 12:17:54,577] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","result":[{"name":"DriverApp","kind":8,"location":{"uri":"file:///Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala","range":{"start":{"line":2,"character":7},"end":{"line":2,"character":16}}}},{"name":"MergeSort","kind":8,"location":{"uri":"file:///Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala","range":{"start":{"line":6,"character":7},"end":{"line":6,"character":16}}}},{"name":"mergeSort","kind":6,"location":{"uri":"file:///Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala","range":{"start":{"line":7,"character":6},"end":{"line":7,"character":15}}},"containerName":"MergeSort"}],"id":1}
+[2018-11-04 12:17:54,577] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","result":[{"name":"DriverApp","kind":8,"location":{"uri":"file:///Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala","range":{"start":{"line":2,"character":7},"end":{"line":2,"character":16}}}},{"name":"MergeSort","kind":8,"location":{"uri":"file:///Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala","range":{"start":{"line":6,"character":7},"end":{"line":6,"character":16}}}},{"name":"mergeSort","kind":6,"location":{"uri":"file:///Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala","range":{"start":{"line":7,"character":6},"end":{"line":7,"character":15}}},"containerName":"MergeSort"}],"id":1}
+[2018-11-04 12:17:54,594] INFO org.github.dragos.vscode.ensime.EnsimeProjectServer - Full typecheck complete event
+[2018-11-04 12:17:54,594] INFO org.github.dragos.vscode.ensime.EnsimeProjectServer - Full typecheck complete event
+[2018-11-04 12:17:54,594] INFO org.github.dragos.vscode.EnsimeLanguageServer - Received 1 notes.
+[2018-11-04 12:17:54,594] INFO org.github.dragos.vscode.EnsimeLanguageServer - Received 1 notes.
+[2018-11-04 12:17:54,595] DEBUG langserver.core.MessageWriter - Content-Length: 371
+
+
+
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala","diagnostics":[{"range":{"start":{"line":13,"character":4},"end":{"line":13,"character":4}},"severity":1,"source":"Scala","message":"type mismatch;\n found   : Unit\n required: List[Int]"}]}}
+[2018-11-04 12:17:54,595] DEBUG langserver.core.MessageWriter - Content-Length: 371
+
+
+
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala","diagnostics":[{"range":{"start":{"line":13,"character":4},"end":{"line":13,"character":4}},"severity":1,"source":"Scala","message":"type mismatch;\n found   : Unit\n required: List[Int]"}]}}
+[2018-11-04 12:17:54,595] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala","diagnostics":[{"range":{"start":{"line":13,"character":4},"end":{"line":13,"character":4}},"severity":1,"source":"Scala","message":"type mismatch;\n found   : Unit\n required: List[Int]"}]}}
+[2018-11-04 12:17:54,595] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala","diagnostics":[{"range":{"start":{"line":13,"character":4},"end":{"line":13,"character":4}},"severity":1,"source":"Scala","message":"type mismatch;\n found   : Unit\n required: List[Int]"}]}}
+[2018-11-04 12:17:56,008] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 527
+[2018-11-04 12:17:56,008] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 527
+[2018-11-04 12:17:56,009] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"uri":"file:///Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala","version":2},"contentChanges":[{"text":"package com.example.example\n\nobject DriverApp extends App {\n  println(\"Hello world\")\n}\n\nobject MergeSort {\n  def mergeSort(list: List[Int]): List[Int] = {\n    if (list.length == 1) list\n    else {\n      val n = list.length / 2\n      val (head, tail) = list.splitAt(n)\n    }\n  }\n}"}]}}
+[2018-11-04 12:17:56,009] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"uri":"file:///Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala","version":2},"contentChanges":[{"text":"package com.example.example\n\nobject DriverApp extends App {\n  println(\"Hello world\")\n}\n\nobject MergeSort {\n  def mergeSort(list: List[Int]): List[Int] = {\n    if (list.length == 1) list\n    else {\n      val n = list.length / 2\n      val (head, tail) = list.splitAt(n)\n    }\n  }\n}"}]}}
+[2018-11-04 12:17:56,012] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 188
+[2018-11-04 12:17:56,012] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 188
+[2018-11-04 12:17:56,012] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didClose","params":{"textDocument":{"uri":"file:///Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala"}}}
+[2018-11-04 12:17:56,012] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didClose","params":{"textDocument":{"uri":"file:///Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala"}}}
+[2018-11-04 12:17:56,015] DEBUG org.github.dragos.vscode.ensime.EnsimeProjectServer - Forwarding TypecheckFileReq(SourceFileInfo(RawFile(/Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala),Some(...),None))
+[2018-11-04 12:17:56,015] DEBUG org.github.dragos.vscode.ensime.EnsimeProjectServer - Forwarding TypecheckFileReq(SourceFileInfo(RawFile(/Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala),Some(...),None))
+[2018-11-04 12:17:56,020] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Removing file:///Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala from Ensime.
+[2018-11-04 12:17:56,020] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Removing file:///Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala from Ensime.
+[2018-11-04 12:17:56,039] INFO akka.actor.DeadLetterActorRef - Message [org.ensime.api.VoidResponse$] from Actor[akka://ENSIME/user/server/ensimeProject/project/scalac/scala-sandbox_compile#-307462113] to Actor[akka://ENSIME/deadLetters] was not delivered. [4] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+[2018-11-04 12:17:56,183] DEBUG org.github.dragos.vscode.ensime.EnsimeProjectServer - Scala notes: Note(/Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala,type mismatch;
+ found   : Unit
+ required: List[Int],NoteError,272,272,13,5)
+[2018-11-04 12:17:56,183] DEBUG org.github.dragos.vscode.ensime.EnsimeProjectServer - Scala notes: Note(/Users/ilyaonishenko/Projects/scala-sandbox/src/main/scala/com/example/example/DriverApp.scala,type mismatch;
+ found   : Unit
+ required: List[Int],NoteError,272,272,13,5)
+[2018-11-04 12:17:56,358] INFO org.github.dragos.vscode.EnsimeLanguageServer - Received 1 notes.
+[2018-11-04 12:17:56,358] INFO org.github.dragos.vscode.EnsimeLanguageServer - Received 1 notes.
+[2018-11-04 12:17:56,359] INFO org.github.dragos.vscode.ensime.EnsimeProjectServer - Full typecheck complete event
+[2018-11-04 12:17:56,359] INFO org.github.dragos.vscode.ensime.EnsimeProjectServer - Full typecheck complete event
+[2018-11-04 12:17:56,359] INFO org.github.dragos.vscode.EnsimeLanguageServer - Received 1 notes.
+[2018-11-04 12:17:56,359] INFO org.github.dragos.vscode.EnsimeLanguageServer - Received 1 notes.
+[2018-11-04 20:19:27,690] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 58
+[2018-11-04 20:19:27,690] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 58
+[2018-11-04 20:19:27,751] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":2,"method":"shutdown","params":null}
+[2018-11-04 20:19:27,751] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":2,"method":"shutdown","params":null}
+[2018-11-04 20:19:28,284] DEBUG langserver.core.MessageWriter - Content-Length: 198
+
+
+
+{"jsonrpc":"2.0","error":{"code":-32602,"message":"Invalid params","data":{"meaning":"Invalid method parameter(s).","error":{"obj":[{"msg":["command parameters must be given"],"args":[]}]}}},"id":2}
+[2018-11-04 20:19:28,284] DEBUG langserver.core.MessageWriter - Content-Length: 198
+
+
+
+{"jsonrpc":"2.0","error":{"code":-32602,"message":"Invalid params","data":{"meaning":"Invalid method parameter(s).","error":{"obj":[{"msg":["command parameters must be given"],"args":[]}]}}},"id":2}
+[2018-11-04 20:19:28,285] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","error":{"code":-32602,"message":"Invalid params","data":{"meaning":"Invalid method parameter(s).","error":{"obj":[{"msg":["command parameters must be given"],"args":[]}]}}},"id":2}
+[2018-11-04 20:19:28,285] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","error":{"code":-32602,"message":"Invalid params","data":{"meaning":"Invalid method parameter(s).","error":{"obj":[{"msg":["command parameters must be given"],"args":[]}]}}},"id":2}
+[2018-11-04 20:19:28,711] INFO langserver.core.MessageReader - End of stream, terminating thread
+[2018-11-04 20:19:28,711] INFO langserver.core.MessageReader - End of stream, terminating thread
+[2018-11-04 20:19:28,713] INFO org.github.dragos.vscode.EnsimeLanguageServer - Shutdown request
+[2018-11-04 20:19:28,713] INFO org.github.dragos.vscode.EnsimeLanguageServer - Shutdown request
+[2018-11-04 20:19:28,715] INFO org.github.dragos.vscode.EnsimeLanguageServer - Shutting down actor system.
+[2018-11-04 20:19:28,715] INFO org.github.dragos.vscode.EnsimeLanguageServer - Shutting down actor system.
+[2018-11-04 20:19:29,275] INFO org.github.dragos.vscode.ensime.EnsimeProjectServer - Shutting down.
+[2018-11-04 20:19:29,275] INFO org.github.dragos.vscode.ensime.EnsimeProjectServer - Shutting down.
+[2018-11-04 20:19:29,356] INFO org.github.dragos.vscode.EnsimeLanguageServer - Actor system down.
+[2018-11-04 20:19:29,356] INFO org.github.dragos.vscode.EnsimeLanguageServer - Actor system down.
